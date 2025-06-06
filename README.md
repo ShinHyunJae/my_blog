@@ -8,63 +8,63 @@ Next.js, Clerk, Supabase를 사용한 개인 블로그 프로젝트입니다.
 
 ## 🚀 기술 스택
 
--   **Frontend**: Next.js 14, TypeScript, Tailwind CSS
--   **Authentication**: Clerk
--   **Database**: Supabase (PostgreSQL)
--   **Styling**: Tailwind CSS, shadcn/ui
--   **Markdown**: react-markdown, rehype, remark
+- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **Authentication**: Clerk
+- **Database**: Supabase (PostgreSQL)
+- **Styling**: Tailwind CSS, shadcn/ui
+- **Markdown**: react-markdown, rehype, remark
 
 ## 📋 주요 기능
 
--   ✅ 블로그 포스트 작성/수정/삭제
--   ✅ 카테고리 관리
--   ✅ 마크다운 지원
--   ✅ 반응형 디자인
--   ✅ SEO 최적화
--   ✅ 이미지 업로드 및 최적화
--   ✅ 사용자 인증 (Clerk)
--   🔄 댓글 시스템 (예정)
--   🔄 태그 시스템 (예정)
+- ✅ 블로그 포스트 작성/수정/삭제
+- ✅ 카테고리 관리
+- ✅ 마크다운 지원
+- ✅ 반응형 디자인
+- ✅ SEO 최적화
+- ✅ 이미지 업로드 및 최적화
+- ✅ 사용자 인증 (Clerk)
+- 🔄 댓글 시스템 (예정)
+- 🔄 태그 시스템 (예정)
 
 ## ✨ 주요 기능
 
 ### 📱 반응형 디자인
 
--   모바일, 태블릿, 데스크톱 완벽 대응
--   Tailwind CSS를 활용한 현대적 UI/UX
+- 모바일, 태블릿, 데스크톱 완벽 대응
+- Tailwind CSS를 활용한 현대적 UI/UX
 
 ### 🔍 검색 기능
 
--   실시간 검색 다이얼로그 (`Ctrl+K`)
--   제목, 내용, 태그 전체 검색
--   검색어 하이라이팅
--   고급 필터링 및 정렬
+- 실시간 검색 다이얼로그 (`Ctrl+K`)
+- 제목, 내용, 태그 전체 검색
+- 검색어 하이라이팅
+- 고급 필터링 및 정렬
 
 ### ❤️ 좋아요 시스템
 
--   포스트별 좋아요 기능
--   로컬 스토리지 기반 사용자 상태 관리
--   부드러운 애니메이션 효과
--   접근성 지원
+- 포스트별 좋아요 기능
+- 로컬 스토리지 기반 사용자 상태 관리
+- 부드러운 애니메이션 효과
+- 접근성 지원
 
 ### 💬 댓글 시스템
 
--   댓글 작성 및 답글 기능
--   실시간 업데이트
--   폼 유효성 검사
+- 댓글 작성 및 답글 기능
+- 실시간 업데이트
+- 폼 유효성 검사
 
 ### 📝 포스트 관리
 
--   마크다운 기반 콘텐츠
--   코드 하이라이팅
--   카테고리 및 태그 분류
--   관련 포스트 추천
+- 마크다운 기반 콘텐츠
+- 코드 하이라이팅
+- 카테고리 및 태그 분류
+- 관련 포스트 추천
 
 ### 🎨 컴포넌트 시스템
 
--   재사용 가능한 PostCard 컴포넌트
--   다양한 변형 (Featured, Compact, Related)
--   shadcn/ui 기반 디자인 시스템
+- 재사용 가능한 PostCard 컴포넌트
+- 다양한 변형 (Featured, Compact, Related)
+- shadcn/ui 기반 디자인 시스템
 
 ## 🛠️ 설치 및 실행
 
@@ -112,13 +112,13 @@ npm run dev
 
 #### 1. 이미지 404 에러
 
--   존재하지 않는 이미지 URL로 인한 에러
--   자동으로 placeholder 이미지로 대체됨
--   필요시 `scripts/clean-database.sql` 실행하여 잘못된 이미지 URL 정리
+- 존재하지 않는 이미지 URL로 인한 에러
+- 자동으로 placeholder 이미지로 대체됨
+- 필요시 `scripts/clean-database.sql` 실행하여 잘못된 이미지 URL 정리
 
 #### 2. site.webmanifest 404 에러
 
--   ✅ 이미 해결됨: `public/site.webmanifest` 파일 생성 완료
+- ✅ 이미 해결됨: `public/site.webmanifest` 파일 생성 완료
 
 #### 3. 잘못된 게시물 데이터
 
@@ -181,10 +181,10 @@ npm run dev
 
 Clerk를 사용한 사용자 인증:
 
--   이메일/비밀번호 로그인
--   소셜 로그인 (Google, GitHub 등)
--   보호된 관리자 페이지
--   Supabase RLS와 연동
+- 이메일/비밀번호 로그인
+- 소셜 로그인 (Google, GitHub 등)
+- 보호된 관리자 페이지
+- Supabase RLS와 연동
 
 ## 📝 포스트 작성
 
@@ -206,11 +206,11 @@ Clerk를 사용한 사용자 인증:
 
 ## 📚 참고 자료
 
--   [Next.js 문서](https://nextjs.org/docs)
--   [Clerk 문서](https://clerk.com/docs)
--   [Supabase 문서](https://supabase.com/docs)
--   [Tailwind CSS](https://tailwindcss.com/docs)
--   [shadcn/ui](https://ui.shadcn.com/)
+- [Next.js 문서](https://nextjs.org/docs)
+- [Clerk 문서](https://clerk.com/docs)
+- [Supabase 문서](https://supabase.com/docs)
+- [Tailwind CSS](https://tailwindcss.com/docs)
+- [shadcn/ui](https://ui.shadcn.com/)
 
 ## 🤝 기여하기
 
@@ -226,7 +226,7 @@ MIT License - 자세한 내용은 `LICENSE` 파일을 확인하세요.
 
 ## 📞 연락처
 
-프로젝트 링크: [https://github.com/LeeSeogMin/my-blog](https://github.com/LeeSeogMin/my-blog)
+프로젝트 링크: [https://github.com/ShinHyunJae/my_blog](https://github.com/ShinHyunJae/my_blog)
 
 ---
 
