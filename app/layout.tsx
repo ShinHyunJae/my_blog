@@ -22,11 +22,11 @@ const notoSansKR = Noto_Sans_KR({
 // SEO 메타데이터 설정
 export const metadata: Metadata = {
   title: {
-    default: "신현재의 웹프로그래밍 블로그",
-    template: "%s | My Blog",
+    default: "신현재의 웹 프로그래밍 블로그",
+    template: "%s | 신현재의 웹 프로그래밍 블로그",
   },
   description:
-    "한신대학교 소프트웨어융합학부 학생 신현재의 copilot 블로그입니다",
+    "웹프로그래밍 수업을 통해 같은 분야에 관심 있는 학생들과 함께 공부하는 블로그입니다.",
   keywords: [
     "웹 개발",
     "JavaScript",
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     "프론트엔드",
     "기술 블로그",
   ],
-  authors: [{ name: "My Blog Team" }],
-  creator: "My Blog",
-  publisher: "My Blog",
+  authors: [{ name: "신현재" }],
+  creator: "신현재",
+  publisher: "신현재의 웹 프로그래밍 블로그",
   formatDetection: {
     email: false,
     address: false,

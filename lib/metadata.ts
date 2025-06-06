@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 
 // 기본 사이트 정보
 const SITE_CONFIG = {
-  name: 'My Blog',
-  description: '개발, 기술, 그리고 일상을 공유하는 블로그',
+  name: '신현재의 웹 프로그래밍 블로그',
+  description: '웹프로그래밍 수업을 통해 같은 분야에 관심 있는 학생들과 함께 공부하는 블로그입니다.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3001',
   author: {
-    name: '블로그 작성자',
+    name: '신현재',
     email: 'admin@myblog.com',
   },
   social: {
