@@ -53,9 +53,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ko_KR",
     url: "/",
-    title: "My Blog - 웹 개발 기술 블로그",
+    title: "신현재의 웹프로그래밍 블로그",
     description:
-      "웹 개발, JavaScript, React, Next.js에 관한 기술 블로그입니다.",
+      "한신대학교 소프트웨어융합학부 학생 신현재의 copilot 블로그입니다.",
     siteName: "My Blog",
     images: [
       {
